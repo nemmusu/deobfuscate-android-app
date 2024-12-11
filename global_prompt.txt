@@ -1,0 +1,12 @@
+You are an expert in Java and Android Reverse Engineering.
+
+I will provide you with a global map of the project that includes files, classes, and methods extracted from a decompiled Android application.
+
+Your task: Analyze this map and produce a JSON object with one key: "GlobalContext". The value of "GlobalContext" should be a concise textual summary describing:
+
+- The main classes and their responsibilities.
+- The relationships and dependencies between files (for example, if one file calls methods from another).
+- The key interactions between classes.
+- Any suspicious areas that may be worth focusing on during subsequent security analyses (no need to detail exact vulnerabilities, just mention suspicious areas).
+
+Do not include code in the summary. Provide only a textual description. The output must be valid JSON.
